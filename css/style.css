@@ -274,7 +274,7 @@ header .buttons a:first-child {
 
     /* Operazioni dropbox business */
 .op-dropbox-business {
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .op-dropbox-business h1 {
@@ -314,40 +314,55 @@ header .buttons a:first-child {
 
     /* Blocco finale */
 .main-bottom {
-    /* DEBUG */
-    background-color: gray;
-    height: 200px;
+    padding: 150px 0;
+}
+
+.main-bottom h1 {
+    width: 60%;
+    padding-bottom: 40px;
 }
 
 /* Footer */
 footer {
-    /* DEBUG */
+    color: white;
     background-color: black;
-    height: 400px;
+    display: sticky;
 }
 
 .footer-container {
-    width: 80%;
+    width: 70%;
     height: 100%;
-    margin: 0 auto;
-}
-
-.footer-container>.box {
-    height: 80%;
+    margin: 0 auto 40px auto;
+    
 }
 
 footer .nav-menu-column {
     width: 20%;
-    height: 100%;
+    padding: 80px 0;
+}
 
-    /* DEBUG */
-    border: 1px solid white;
+footer .nav-menu-column ul {
+    list-style: none;
+}
+
+footer .nav-menu-column ul li:first-child {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+footer .nav-menu-column li {
+    padding: 10px 0;
+    font-size: 14px;
 }
 
 footer .select-language {
-    height: 20%;
+    display: inline;
+    color: grey;
+    border-top: 1px solid white;
+    padding-top: 40px;
+}
 
-    /* DEBUG */
-    width: 20%;
-    border: 1px solid white;
+footer .select-language i:first-child {
+    padding-right: 5px;
 }

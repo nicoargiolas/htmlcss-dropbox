@@ -240,17 +240,11 @@ header .buttons a:first-child {
 
     /* Trova un partner */
 .find-partner {
-    /* DEBUG */
-    height: 500px;
-    background-color: blue;
+    margin-top: 200px;
 }
 
 .find-partner .img-box {
     width: 60%;
-
-    /* DEBUG */
-    background-color: green;
-    height: 100%;
 }
 
 .find-partner .img-box>img {
@@ -260,10 +254,22 @@ header .buttons a:first-child {
 
 .find-partner .text-box {
     width: 40%;
+    padding-left: 30px;
+}
 
-    /* DEBUG */
-    background-color: orange;
-    height: 100%;
+.find-partner .text-box>h2 {
+    padding: 40px 0 20px 0;
+}
+
+.find-partner .text-box p {
+    padding-bottom: 30px;
+}
+
+.find-partner .text-box .btn {
+    border: 1px solid black;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
 }
 
     /* Operazioni dropbox business */

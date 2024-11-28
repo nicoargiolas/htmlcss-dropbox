@@ -135,21 +135,88 @@ header .buttons a:first-child {
 .business-plan {
     /* DEBUG */
     background-color: yellow;
-    height: 800px;
     width: 100%;
+}
+
+.business-plan>h1 {
+    padding-top: 30px;
+}
+
+.checkbox {
+    padding: 50px 0;
+}
+
+.checkbox>span {
+    padding-right: 30px;
 }
 
 .business-plan .box {
     justify-content: space-between;
 }
 
+.business-plan p {
+    font-size: 12px;
+}
+
+.business-plan .btn {
+    font-size: 12px;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
 .business-column {
-    width: 30%;
-    height: 100%;
+    width: 31%;
+    font-size: 14px;
 
     /* DEBUG */
+    height: 800px;
     background-color: aqua;
 }
+
+.bus-col-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.plan-title {
+    text-align: center;
+}
+
+.plan-name {
+    padding: 30px 0 20px 0;
+}
+
+.price {
+    margin-bottom: 20px;
+}
+
+.price :first-child {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.plan-charact>p {
+    padding-bottom: 10px;
+}
+
+.plan-charact {
+    margin-bottom: 30px;
+}
+
+.buy-now {
+    padding: 30px 0;
+}
+
+.punti-salienti {
+    padding: 50px 0 20px 0;
+}
+
+.punti-salienti p {
+    padding-top: 20px;
+}
+
+
 
 .business-bottom {
     width: 100%;

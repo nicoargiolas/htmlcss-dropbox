@@ -1,17 +1,71 @@
+/* Regole generali */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Open Sans", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+    /* Bottoni */
+.blue-btn {
+    background-color: #0061FE;
+    color: white;
+    padding: 10px 20px;
+}
+
+.blue-btn:hover {
+    background-color: #639fff;
+}
+
 /* Regole header */
 header {
     width: 100%;
+    display: flex;
+    justify-content: space-between;
 
     /* DEBUG */
-    background-color: blue;
     height: 80px;
 }
+
+.header-side {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin: auto;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 16px;
+    height: 100%;
+    border: 2px solid white;
+}
+
+.header-side>a {
+    color: black;
+    padding: 14px;
+    align-content: center;
+}
+
+.buttons {
+    padding: 20px;
+}
+
+header .buttons a:first-child {
+    padding: 10px;
+    color: black;
+}
+
+header a:not(.logo, .btn):hover {
+    border-bottom: 2px solid black;
+}
+
 
 /* Regole contenuto principale */
 

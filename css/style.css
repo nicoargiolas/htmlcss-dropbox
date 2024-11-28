@@ -274,17 +274,14 @@ header .buttons a:first-child {
 
     /* Operazioni dropbox business */
 .op-dropbox-business {
-    /* DEBUG */
-    height: 800px;
-    background-color: aquamarine;
+    margin-top: 100px;
 }
 
 .op-dropbox-business h1 {
-    height: 10%;
+    padding-bottom: 40px;
 }
 
 .op-dropbox-business>.box {
-    height: 45%;
     justify-content: space-between;
 }
 
@@ -294,15 +291,25 @@ header .buttons a:first-child {
 }
 
 .op-dropbox-business .img-box {
-    /* DEBUG */
-    height: 50%;
-    background-color: green;
+    padding-bottom: 20px;
+}
+
+.op-dropbox-business .img-box img {
+    width: 100%;
+    height: auto;
 }
 
 .op-dropbox-business .text-box {
-    /* DEBUG */
-    height: 50%;
-    background-color: orange;
+    padding-bottom: 40px;
+}
+
+.op-dropbox-business .text-box h2 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.op-dropbox-business .text-box p {
+    font-size: 14px;
 }
 
     /* Blocco finale */

@@ -133,13 +133,11 @@ header .buttons a:first-child {
 
     /* Piani business */
 .business-plan {
-    /* DEBUG */
-    background-color: yellow;
     width: 100%;
 }
 
 .business-plan>h1 {
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 .checkbox {
@@ -148,6 +146,7 @@ header .buttons a:first-child {
 
 .checkbox>span {
     padding-right: 30px;
+    font-size: 12px;
 }
 
 .business-plan .box {
@@ -168,10 +167,7 @@ header .buttons a:first-child {
 .business-column {
     width: 31%;
     font-size: 14px;
-
-    /* DEBUG */
-    height: 800px;
-    background-color: aqua;
+    border: 1px solid grey;
 }
 
 .bus-col-container {
@@ -181,6 +177,8 @@ header .buttons a:first-child {
 
 .plan-title {
     text-align: center;
+    padding: 10px;
+    font-size: 14px;
 }
 
 .plan-name {
@@ -202,6 +200,7 @@ header .buttons a:first-child {
 
 .plan-charact {
     margin-bottom: 30px;
+    width: 100%;
 }
 
 .buy-now {
@@ -216,7 +215,9 @@ header .buttons a:first-child {
     padding-top: 20px;
 }
 
-
+.punti-salienti p i {
+    color: #0061FE;
+}
 
 .business-bottom {
     width: 100%;

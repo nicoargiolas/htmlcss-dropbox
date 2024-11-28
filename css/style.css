@@ -25,8 +25,6 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-
-    /* DEBUG */
     height: 80px;
 }
 
@@ -62,7 +60,7 @@ header .buttons a:first-child {
     color: black;
 }
 
-header a:not(.logo, .btn):hover {
+.header-link:hover {
     border-bottom: 2px solid black;
 }
 
@@ -83,21 +81,20 @@ header a:not(.logo, .btn):hover {
     width: 100%;
 
     /* DEBUG */
-    height: 600px;
+    height: 800px;
 }
 
 .jumbo-box {
     width: 70%;
     margin: 0  auto;
-
-    /* DEBUG */
-    background-color: aquamarine;
     height: 100%;
 }
 
 .jumbo h1 {
-    font-size: 50px;
-    height: 40%;
+    font-size: 70px;
+    font-weight: 900;
+    padding-top: 60px;
+    padding-bottom: 40px;
 }
 
 .jumbo .box {
@@ -105,19 +102,26 @@ header a:not(.logo, .btn):hover {
 }
 
 .jumbo .text-box {
-    width: 40%;
-
-    /* DEBUG */
-    background-color: orange;
+    width: 35%;
     height: 100%;
 }
 
-.jumbo .img-box {
-    width: 60%;
+.jumbo .text-box p:first-child {
+    margin-bottom: 40px;
+}
 
-    /* DEBUG */
-    background-color: green;
+.jumbo .text-box p:last-child {
+    margin-top: 40px;
+}
+
+.jumbo .img-box {
+    width: 65%;
     height: 100%;
+}
+
+.jumbo .img-box img {
+    width: 120%;
+    height: auto;
 }
 
 

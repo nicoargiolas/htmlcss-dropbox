@@ -22,10 +22,14 @@ body {
 
 /* Regole header */
 header {
+    background-color: white;
     width: 100%;
     display: flex;
     justify-content: space-between;
     height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .header-side {
@@ -79,6 +83,7 @@ header .buttons a:first-child {
 .jumbo {
     background-color: #B4D0E6;
     width: 100%;
+    margin-top: 80px;
 
     /* DEBUG */
     height: 800px;
@@ -154,7 +159,7 @@ header .buttons a:first-child {
 }
 
 .business-plan p {
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .business-column .btn {
@@ -179,6 +184,7 @@ header .buttons a:first-child {
     text-align: center;
     padding: 10px;
     font-size: 14px;
+    border-bottom: 1px solid grey;
 }
 
 .plan-name {
@@ -219,23 +225,40 @@ header .buttons a:first-child {
     color: #0061FE;
 }
 
+.punti-salienti p:last-child {
+    padding-bottom: 20px;
+}
+
 .business-bottom {
     width: 100%;
+    margin-top: 50px;
+    border: solid 1px grey;
+}
 
-    /* DEBUG */
-    height: 300px;
-    background-color: aqua;
-    border: solid 1px black;
+.business-bottom-container {
+    margin: 20px;
 }
 
 .business-bottom .box {
     height: auto;
     width: auto;
-    margin: 20px;
+}
+
+.business-bottom .plan-name {
+    padding: 0;
 }
 
 .business-bottom .btn {
     font-size: 12px;
+}
+
+.business-bottom .price {
+    padding-top: 10px;
+}
+
+.business-bottom-container>p {
+    width: 60%;
+    padding: 20px 0;
 }
 
     /* Trova un partner */
@@ -326,12 +349,10 @@ header .buttons a:first-child {
 footer {
     color: white;
     background-color: black;
-    display: sticky;
 }
 
 .footer-container {
     width: 70%;
-    height: 100%;
     margin: 0 auto 40px auto;
     
 }
